@@ -1,0 +1,72 @@
+* {margin: 0;padding: 0;}
+body{
+    color: #333333;
+}
+.header
+{
+    height: 80px;
+    width: 1366px;
+    background-color: white;
+}
+.header_content
+{
+    margin-left: 160px;
+    padding-top: 10px;
+    bottom: 0;
+
+
+}
+#title_chinese
+{
+    background-color:white;
+    font-family: "方正粗倩简体";
+    font-weight: bold;
+    font-size: 36px;
+    min-width: 400px;
+
+}
+.footer
+{
+    width: 1366px;
+    height: 130px;
+    background-color: white;
+    text-align: center;
+    line-height: 35px;
+    font-family: "Hiragino Sans GB", "微软雅黑", "Microsoft Yahei", tahoma, arial, "宋体";
+    font-size: 14px;
+
+}
+
+.contain
+{
+
+    background-color: black;
+    position:relative;
+}
+.contain2
+{
+    position: absolute;
+    z-index: 1;
+    width: 1155px;
+    height: 430px;
+    left: 0;
+    bottom:0;
+    /*left和bottom必须定义，不然会溢出到定位点的下面*/
+    overflow: hidden;
+
+
+}
+
+.login
+{
+    background: rgba(0, 0, 0, 0) url("login_bg.png") repeat scroll 0 0 / 100% 100%;
+
+    margin-top: 50px;
+    margin-left: 800px;
+    position: relative;
+    z-index: 2;
+    height: 330px;
+    width: 330px;
+    padding: 15px;
+
+}

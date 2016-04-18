@@ -1,0 +1,30 @@
+* {margin: 0;padding: 0;border: 0px none;}
+span {display: block;}
+ul,li {list-style: none outside none;}
+@font-face {
+    font-family: "Adobe 黑体 Std R";
+
+
+}
+.header {
+    background-color: white;
+    border-top: 3px solid #666666;
+    height: 117px;
+    width: 1366px;
+
+}
+.books {
+
+    padding-top: 20px ;
+    padding-bottom: 25px;
+    font-style: inherit;
+    font-size: 40px;
+    text-align: center;
+}
+.choose {
+    margin: 68px 356px 0px 356px;
+
+    background-color: #2b62d6;
+
+
+}
