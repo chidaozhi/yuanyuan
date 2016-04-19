@@ -70,3 +70,7 @@ body{
     padding: 15px;
 
 }
+li
+{
+list-style-type: none;
+}
