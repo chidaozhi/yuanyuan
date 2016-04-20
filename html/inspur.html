@@ -24,15 +24,38 @@
         <div class="contain2">
             <div class="login">
                 <div>
-                    <h3 style="margin-top: 10px;">用户登录</h3>
-                    <ul>
-                        <li>
-                            登录账号:
-                        </li>
-                        <li>
-                            登录密码:
-                        </li>
-                    </ul>
+                    <form action="" method="" >
+                        <table cellpadding="10"   >
+                            <tr>
+                                <td id="userin">
+                                    用户登录
+                                </td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr id="user">
+                                <td>
+                                    登录账号:
+                                </td>
+                                <td colspan="2">
+                                    <input type="text"title="用户名/身份证号/手机号" placeholder="用户名/身份证号/手机号" >
+                                </td>
+                            </tr>
+                            <tr id="passwd">
+                                <td>登录密码:</td>
+                                <td colspan="2"><input type="text" title="请输入密码" placeholder="请输入密码"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input name="选项" type="radio" value="系统内部分发" checked="checked" id="systemin"> <label for="systemin"> 系统内部分发 </label>
+                                </td>
+                                <td>
+                                    <input name="选项" type="radio" id="manfor"><label for="manfor"> 人工线下交换 </label>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
                 </div>
             </div>
 

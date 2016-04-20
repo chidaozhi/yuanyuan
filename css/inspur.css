@@ -74,3 +74,30 @@ li
 {
 list-style-type: none;
 }
+input
+{
+    font-size: 14px;
+
+}
+#userin
+{
+    border-left: 3px solid #333;
+    height: 30px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+#user,#passwd
+{
+    padding-top: 30px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+}
+#manfor,#systemin
+{
+    margin-top: 20px;
+}
