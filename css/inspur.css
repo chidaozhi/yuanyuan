@@ -40,7 +40,7 @@ body{
 .contain
 {
 
-    background-color: black;
+    background-image: url("../html/background.jpg");
     position:relative;
 }
 .contain2
