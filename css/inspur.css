@@ -39,37 +39,33 @@ body{
 
 .contain
 {
-
-    background-image: url("../html/background.jpg");
-    position:relative;
+    width: 1366px;
+    height: 430px;
+    background-color: #2f5fc3;
+    /*background-image: url("../html/background.jpg");*/
 }
 .contain2
 {
-    position: absolute;
-    z-index: 1;
-    width: 1155px;
-    height: 430px;
-    left: 0;
-    bottom:0;
-    /*left和bottom必须定义，不然会溢出到定位点的下面*/
-    overflow: hidden;
-
-
-}
-
-.login
-{
-    background: rgba(0, 0, 0, 0) url("login_bg.png") repeat scroll 0 0 / 100% 100%;
-
-    margin-top: 50px;
+    width: 500px;
+    height: 230px;
     margin-left: 800px;
-    position: relative;
-    z-index: 2;
-    height: 330px;
-    width: 330px;
-    padding: 15px;
-
+    margin-top: 20;
+    background-image: url("../imgs/login_bg.png");
 }
+
+/*.login*/
+/*{*/
+
+    /*background: rgba(0, 0, 0, 0) url("../imgs/login_bg.png") repeat scroll 0 0 / 100% 100%;*/
+    /*margin-top: 50px;*/
+    /*margin-left: 800px;*/
+    /*position: relative;*/
+    /*z-index: 2;*/
+    /*height: 330px;*/
+    /*width: 330px;*/
+    /*padding: 15px;*/
+
+/*}*/
 li
 {
 list-style-type: none;
