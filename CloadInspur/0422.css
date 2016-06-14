@@ -1,0 +1,451 @@
+body,ul,li,.header,.five,p
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+ul,li
+{
+    list-style-type: none;
+
+
+
+}
+.header
+{
+    height: 90px;
+    width:100%;
+    min-width: 1349px;
+    background-color: #4074E1;
+}
+.header_left
+{
+    float: left;
+    margin-left: 70px;
+    /*padding-top: 15px;*/
+    width: 670px;
+    height: 60px;
+}
+.header_right
+{
+    float: right;
+    margin-top: 15px;
+    margin-right:70px ;
+    width: 380px;
+    height: 60px;
+}
+#inspur_png
+{
+    padding-top: 30px;
+    margin-right: 30px;
+    float: left;
+}
+.four
+{
+    float: left;
+}
+.four_div
+{
+    float: left;
+    width: 72px;
+    height: 50px;
+    padding: 35px 18px 18px 18px;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+.four:hover
+{
+    background-color: #2f5fc3;
+}
+
+#first
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 72px;
+    height: 50px;
+    padding: 18px;
+    margin: 0;
+    float: left;
+    font-size: 18px;
+}
+.two_button
+{
+    float: left;
+
+}
+.login_submit
+{
+    float: left;
+    width: 80px;
+    height: 50px;
+    padding: 16px;
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+    background-color:#4074E1 ;
+    border: white 1px solid;
+
+}
+.contain_1
+{
+    background-color: #335274;
+    width: 100%;
+    height: 463px;
+    position: relative;
+    min-width: 1349px;
+    /*背景颜色min-width 要跟前面展示图片的min-width一致*/
+}
+.threeimg
+{
+    height: 455px;
+    width: 100%;
+    min-width: 1349px;
+    float: left;
+    vertical-align:middle;
+    position: relative;
+    /*背景颜色min-width 要跟前面展示图片的min-width一致*/
+}
+.threedivs
+{
+    height: 108px;
+    width: 100%;
+    min-width: 1349px;
+    float: left;
+    margin-top: -108px;
+    position: relative;
+    /*背景颜色min-width 要跟前面展示图片的min-width一致，以后上层块元素都应该一致*/
+}
+.main
+{
+    width: 90%;
+    /*长度占整个长度的90%*/
+    height: 108px;
+    background-color: #4074E1;
+    opacity:0.9;
+    float: left;
+    /*float后，默认为块状元素*/
+    left: 5%;
+    /*距离左侧整个长度的5%*/
+    position: absolute;
+
+}
+.odds
+{
+    width: 33.33%;
+    height: 108px;
+    float: left;
+    font-size: 18px;
+    /*float后，默认为块状元素*/
+}
+.five
+{
+    width: 100%;
+    min-width: 1349px;
+    height: 432px;
+    /*background-color: #1f7700;*/
+    position: relative;
+
+}
+.five_contain
+{
+    float: left;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    /*上级有min-width此处再建就长度溢出*/
+}
+.contain_head
+{
+    width:100%;
+    float: left;
+    margin: 30px 0px;
+    padding: 0;
+    height:60px;
+    /*left: 5%;*/
+    /*position: absolute;*/
+    /*background-color: #7A3CE9;*/
+
+}
+.blocks
+{
+    width: 100%;
+    float: left;
+    height: 300px;
+
+}
+
+.block
+{
+    width:20%;
+    height: 280px;
+    padding-top: 20px;
+    float: left;
+    font-style: normal;
+    z-index: 200;
+    /*text-align: center;*/
+    /*color: #4074e1;*/
+    /*font-size: 20px;*/
+
+}
+.block_icon
+{
+    width:100%;
+    height: 200px;
+    /*background-color: pink;*/
+    float: left;
+    text-align: center;
+    color: #4074e1;
+    font-size: 20px;
+}
+.block:hover
+{
+    background-color: rgba(64,116,225,0.9);
+}
+.block_img
+{
+
+
+    color: #4074E1;
+    vertical-align: baseline;
+
+}
+.icon_jisuan,.icon_net
+{
+    background-image: url("http://cloud.inspur.com/static/style/images/index/product-img.png");
+    /*background-position: 0px 0px;*/
+    background-repeat: no-repeat;
+    height: 72px;
+    width: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 20px;
+}
+.icon_jisuan
+{
+    background-position: 0px 0px;
+}
+.icon_net
+{
+    background-position: 0px -72px;
+}
+.block_list
+{
+    /*background-color: yellowgreen;*/
+    color: gray;
+}
+.map
+{
+    background-image: url("../imgs/map.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    height: 520px;
+    min-width: 1349px;
+    position: relative;
+
+}
+.news
+{
+    width: 100%;
+    height: 410px;
+    float: left;
+    min-width: 1349px;
+    position: relative;
+    background-color: #F9FBFE;
+}
+.news_main
+{
+    position: absolute;
+    text-align: left;
+    width: 90%;
+    /*min-width: 1349px;*/
+    height: inherit;
+    left: 5%;
+}
+.news_contain
+{
+    margin: 0;
+    width: 33.3%;
+    height: 320px;
+    float: left;
+    background-color: rgba(255,255,255,0.9);
+}
+.word
+{
+    padding: 10px;
+}
+.hot_icon
+{
+    background-color: orange;
+    font-size: 12px;
+}
+.time
+{
+    color: gray;
+}
+.free
+{
+    height: 70px;
+    width:100%;
+    min-width: 1349px;
+    padding: 50px 0;
+    margin: 0;
+    background-color: #2F5FC3;
+    float: left;
+    text-align: center;
+}
+.footer
+{
+    float: left;
+    width: 100%;
+    min-width: 1349px;
+    height: 300px;
+    background-color: #4074e1;
+}
+.footer_main
+{
+    float: left;
+    width: 90%;
+    left: 5%;
+    height: inherit;
+    position: relative;
+}
+.footer_left
+{
+    float: left;
+    width: 60%;
+    height: 260px;
+    /*background-color: #5cdbd0;*/
+    position: relative;
+}
+.footer_right
+{
+    float: right;
+    width: 40%;
+    height: 280px;
+    /*background-color: #00ff00;*/
+    position: relative;
+}
+.columns
+{
+    float: left;
+    width: 25%;
+    height: auto;
+    color: white;
+    line-height: 30px;
+}
+.column
+{
+    float: left;
+    width: 50%;
+    height: auto;
+    color: white;
+    line-height: 30px;
+
+}
+
+.footer_page
+{
+    text-align: center;
+    background-color: #4074e1;
+    border-top: 1px solid white;
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+
+.contain_menu
+{
+    margin-top: 90px;
+    max-height: 500px;
+    min-width: 1200px;
+    background-color: #2f5fc3;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    padding: 30px;
+    padding-left: 100px;
+
+}
+
+.prod-name
+{
+    float: left;
+    line-height: 18px;
+    padding-left: 30px;
+    vertical-align: top;
+    width: 100px;
+    list-style: none;
+    /*list-style-type: none;*/
+    font-family: "Arial","微软雅黑";
+
+}
+.prod-sort
+{
+    color: #06d3b4;
+    padding-bottom: 18px;
+    float: left;
+    list-style: none;
+
+}
+.db
+{
+    display: block !important;
+}
+.d-fs-control
+{
+    position: absolute;
+    width:100%;
+    left: 0;
+    bottom: 150px;
+    height: 25px;
+    line-height: 25px;
+}
+.contain_1_1 ul li
+{
+    float: left;
+}
+.contain_1_1
+{
+    overflow: hidden;
+}
+.d-fs-control ul
+{
+    position: absolute;
+    bottom:3px;
+    right: 50%;
+    height: 16px;
+}
+.d-fs-control ul li
+{
+    width:16px;
+    height:16px;
+    background:#777675;
+    border-radius: 2px 2px 2px 2px;
+    float:left;
+    margin-left:5px;
+    color:#dcdcdc;
+    text-align:center;
+    font-weight:700;
+    cursor:pointer;
+    line-height:16px;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.d-fs-control ul li:hover,.d-fs-control ul li.select
+{
+    background:#ffffff;
+    color:#ff6700;
+}
