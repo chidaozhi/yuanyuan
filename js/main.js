@@ -1,3 +1,5 @@
+;
+
 $(document).ready(function(){
 //导航hover下拉菜单
     $(".sub-menu").hover(function(){
